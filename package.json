@@ -1,0 +1,20 @@
+{
+  "name": "splunk-q",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Generate Splunk SPL queries from plain English using an OpenAI-compatible chat API",
+  "type": "module",
+  "bin": {
+    "splunk-q": "./splunk-q.mjs"
+  },
+  "engines": {
+    "node": ">=20.12"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "typescript": "^5.9.0"
+  }
+}
